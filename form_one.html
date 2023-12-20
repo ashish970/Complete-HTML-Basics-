@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form One</title>
+
+
+    <style>
+        body{
+            background-color: #000000;
+            color:#f0f8ff;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+    </style>
+
+
+</head>
+<body>
+     <!-- there is two part in form i.e. get & post, and all the elements goes at the same time to the backend.
+    the basic goal of form to take input from the users and there is different types of ways to take inputs that's it  -->
+
+    <h1> Forms in Html </h1>
+<form action="url" method="GET" accept-charset="utf-8" autocomplete="on" enctype="application/x-www-form-urlencoded" target="_blank">
+
+     <label for="">First name</label>   <!--best practice to write label apart from placeholder -->
+
+    <h2> Name : <input type="text" placeholder="Enter your full name" name="" id=""> </h2>
+
+
+    <h2>Email id : <input type ="text" placeholder="enter your E-mail"></h2>
+
+    <h2>Address-1 : <input type="text" placeholder="enter your address"></h2>
+
+    <h2>Address-11 : <input type="text" placeholder="enter your address"></h2>
+
+    <h2>Branch : <input type="search" placeholder="enter your branch"></h2>
+
+    <h2>Date : <input type="datetime-local"></h2>
+
+    <h2>DoB : <input type="date"> </h2>
+
+    <h2>College Name : <input type="text" placeholder="college name"></h2>
+
+    <h2>Gender : <input type="radio" name="gender" value="male"> Male  <input type="radio" name="gender" value="Female">Female</h2>
+
+
+
+    <h2>Choose Text Editors: <input list="editors" placeholder="Choose IDE"editor"></h2>
+    <datalist id="editors">
+        <option value="vs code">vs code</option>
+        <option value="pycharm">pycharm</option>
+        <option value="sublime">sublime</option>
+        <option value="console">console</option>
+        <option value="text-editor">text-editor</option>
+        <option value="code-block">code-block</option>
+    </datalist>
+
+    <br><br>
+    <input type="reset" value="Reset">
+    <br>
+    <h1> <input type="button" value="submit"> </h1>
+
+    </form>
+
+</body>
+</html>
